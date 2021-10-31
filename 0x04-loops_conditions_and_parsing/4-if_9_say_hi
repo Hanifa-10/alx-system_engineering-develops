@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# script to display "Best School" 10 imes, but at  9 say "Hi"
+i=0
+while [ "$i" -lt "11" ]
+do
+if [ "$" == 9 ]
+then
+echo "Hi"
+else
+echo "Best School"
+fi
+((i++))
+done
