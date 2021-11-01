@@ -3,7 +3,7 @@
 i=0
 while [ "$i" -lt "11" ]
 do
-if [ "$" == 9 ]
+if [ "$i" == 9 ]
 then
 echo "Hi"
 else
