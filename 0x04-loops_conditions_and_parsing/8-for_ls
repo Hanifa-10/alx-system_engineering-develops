@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# script to filter output
+e=$(ls)
+for i in $e
+do 
+echo $i | cut -d '-' -f 2
+done
