@@ -3,7 +3,7 @@
 
 for i in {1..100}
 do
-if ((1 % 15 == 0))
+if ((i % 15 == 0))
 then
 echo "FizzBuzz"
 elif ((i % 5 == 0))
